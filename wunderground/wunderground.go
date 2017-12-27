@@ -53,6 +53,7 @@ type temperature struct {
 	TempString string  `json:"temperature_string"`
 	Fahrenheit float32 `json:"temp_f"`
 	Celsius    float32 `json:"temp_c"`
+	Condition  string  `json:"weather"` 
 }
 
 // client manages communication with the Wunderground weather API.
