@@ -50,10 +50,13 @@ type wind struct {
 
 // temperature holds all the temperature data
 type temperature struct {
-	TempString string  `json:"temperature_string"`
-	Fahrenheit float32 `json:"temp_f"`
-	Celsius    float32 `json:"temp_c"`
-	Condition  string  `json:"weather"` 
+	TempString           string  `json:"temperature_string"`
+	Fahrenheit           float32 `json:"temp_f"`
+	Celsius              float32 `json:"temp_c"`
+	Condition            string  `json:"weather"` 
+	FeelsLikeString      string  `json:"feelslike_string"` 
+	FeelsLikeFahrenheit  string  `json:"feelslile_f"` 
+	FeelsLikeCelsius     string  `json:"feelslike_c"` 
 }
 
 // client manages communication with the Wunderground weather API.
