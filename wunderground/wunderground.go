@@ -21,7 +21,13 @@ type weatherResponse struct {
 	Location location `json:"display_location"`
 	*wind
 	*temperature
-	Icon     string   `json:"icon_url"`
+	*iconResponse
+}
+
+// iconResponse brings the WU icon information
+type iconResponse struct {
+	IconURL  string `json:"icon_url"`
+	IconName string `json:"icon"`
 }
 
 // location holds all the locational data
