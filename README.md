@@ -1,5 +1,5 @@
 # go-wunderground
-A go package for interacting with the Wunderground weather API.
+A go package for interacting with the Wunderground weather API (with Icon support).
 
 [![GoDoc](https://godoc.org/github.com/ZachtimusPrime/go-wunderground/wunderground?status.svg)](https://godoc.org/github.com/ZachtimusPrime/go-wunderground/wunderground)
 [![Build Status](https://travis-ci.org/ZachtimusPrime/go-wunderground.svg?branch=master)](https://travis-ci.org/ZachtimusPrime/go-wunderground)
